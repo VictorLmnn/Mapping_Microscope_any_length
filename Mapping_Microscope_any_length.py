@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from PIL import Image
 
 #image path and valid extensions
-imageDir = "Komplett/" #specify your path here
+imageDir = "#19850_60x60_klein/" #specify your path here
 image_path_list = []
  
 #create a list all files in directory and
