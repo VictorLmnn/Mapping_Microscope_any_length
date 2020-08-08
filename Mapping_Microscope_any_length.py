@@ -16,7 +16,7 @@ for file in os.listdir(imageDir):
     image_path_list.append(os.path.join(imageDir, file))
 
 
-# print(image_path_list)
+#print(image_path_list)
 null = []
 for image in image_path_list:
     null.append(cv2.imread(image))
@@ -57,3 +57,5 @@ cv2.imshow("fullimage.jpg",fullimage)
 cv2.waitKey()
 # plt.imshow(fullimage)
 # plt.show()
+
+print((len(image_path_list))**.5)
