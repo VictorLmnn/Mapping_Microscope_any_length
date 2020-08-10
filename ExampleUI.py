@@ -31,7 +31,7 @@ line = tk.Frame(root, height=1, width=400, bg="grey80", relief='groove')
 
 input_path = tk.Label(top_frame, text="Input Folder Path:")
 input_entry = tk.Entry(top_frame, text="", width=40)
-browse1 = tk.Button(top_frame, text="Browse", command=search_for_file_path)
+browse1 = tk.Button(top_frame, text="Browse", command=input)
 
 fullimage_name = tk.Label(bottom_frame, text="Fullimage Name")
 output_entry = tk.Entry(bottom_frame, text="", width=40)
