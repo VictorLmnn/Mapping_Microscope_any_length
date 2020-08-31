@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from PIL import Image
 
 #image path and valid extensions
-imageDir = "Elektride" #specify your path here
+imageDir = "Elektride_1200x1200" #specify your path here
 image_path_list = []
  
 #create a list all files in directory and
