@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from PIL import Image
 
 #image path and valid extensions
-imageDir = "#19850_10x10_600x600" #specify your path here
+imageDir = "Elektride" #specify your path here
 image_path_list = []
  
 #create a list all files in directory and
@@ -53,7 +53,7 @@ def concat_tile(im_list_2d):
 #fullimage = concat_tile([null[0:17],null[17:34],null[34:51],null[51:68],null[68:85],null[85:102],null[102:119],null[119:136]])
 fullimage = concat_tile(null1)
 cv2.imwrite('fullimage_any_length.jpg', fullimage)
-cv2.imshow("fullimage.jpg",fullimage)
+# cv2.imshow("fullimage.jpg",fullimage)
 cv2.waitKey()
 # plt.imshow(fullimage)
 # plt.show()
